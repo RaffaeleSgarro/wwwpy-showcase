@@ -4,7 +4,11 @@ version = "0.1.0"
 description = ""
 authors = ["Raffaele Sgarro <raffaelesgarro@gmail.com>"]
 readme = "README.md"
-packages = [{include = "src"}]
+packages = [
+    {include = "example-chat"},
+    {include = "example-file-upload"},
+    {include = "example-markdown"},
+]
 
 [tool.poetry.dependencies]
 python = "^3.10"
